@@ -1,0 +1,2 @@
+require "sandra-rails/railtie"
+
