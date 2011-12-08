@@ -20,7 +20,7 @@ Gem::Specification.new do |s|
 
   # specify any dependencies here; for example:
   s.add_runtime_dependency "sandra"
-  s.add_runtime_dependency "actionpack", ["~> 3.0.0"]
-  s.add_runtime_dependency "railties", ["~> 3.0.0"]
+  s.add_runtime_dependency "actionpack", ["~> 3.1.0"]
+  s.add_runtime_dependency "railties", ["~> 3.1.0"]
   # s.add_runtime_dependency "rest-client"
 end
