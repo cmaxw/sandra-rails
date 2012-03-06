@@ -20,7 +20,7 @@ namespace :sandra do
     #updated_cfs.each do |name, options|
       #options = options.is_a?(Hash) ? options : {}
       #cf_def = update_cf(current_cfs[name], options)
-      store.update_column_family(cf_def)
+      #store.update_column_family(cf_def)
     #end
     deleted_cfs.each do |name|
       store.drop_column_family(name)
